@@ -1,25 +1,25 @@
-# batch-vs-streaming-bigquery-analytics-
+# batch-vs-streaming-bigquery-analytics
 This project showcases how cloud-native analytics platforms like BigQuery enable both real-time and batch analytics, empowering businesses to make faster and smarter decisions using live data streams.
 
-🚀 Project Overview
+##🚀 Project Overview
 
 This project demonstrates how to identify, analyze, and query batch and streaming data sources using Google BigQuery. The use case is based on a real-world eCommerce scenario where near real-time shopping cart activity is analyzed to support merchandising and pricing decisions.
 
 The project highlights how streaming data enables minute-by-minute insights, while batch data supports historical and aggregated analysis.
 
-🧠 Business Scenario
+##🧠 Business Scenario
 
-A lead merchandiser needs to monitor:
+### A lead merchandiser needs to monitor:
 
-Real-time items added to shopping carts
+* Real-time items added to shopping carts
 
-Minute-by-minute trends for promotional effectiveness
+* Minute-by-minute trends for promotional effectiveness
 
-Using BigQuery, we analyze:
+* Using BigQuery, we analyze:
 
-Streaming source: shopping_cart table (live data ingestion)
+* Streaming source: shopping_cart table (live data ingestion)
 
-Batch source: orders table (periodic batch loads)
+* Batch source: orders table (periodic batch loads)
 
 🏗️ Architecture
 
