@@ -1,5 +1,9 @@
 # batch-vs-streaming-bigquery-analytics
-This project showcases how cloud-native analytics platforms like BigQuery enable both real-time and batch analytics, empowering businesses to make faster and smarter decisions using live data streams.
+Timely access to data is critical for organizations to respond quickly to market changes, customer needs, and operational issues.
+
+Batch processing is a method of collecting large volumes of data over a period of time, then processing it all at once. It is best for processing large amounts of data and tasks that do not require near real-time processing.
+
+Streaming processing is a method of processing data as it is received. It is best for processing data continuously in real time. It is important for data analysts and data scientists to understand the difference between the two since both processes have their own advantages and disadvantages.
 
 ## 🚀 Project Overview
 
@@ -15,7 +19,7 @@ The project highlights how streaming data enables minute-by-minute insights, whi
 
 * Minute-by-minute trends for promotional effectiveness
 
-* Using BigQuery, we analyze:
+### Using BigQuery, we analyze:
 
 * Streaming source: shopping_cart table (live data ingestion)
 
