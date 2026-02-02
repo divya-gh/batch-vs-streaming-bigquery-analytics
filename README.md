@@ -46,7 +46,8 @@ The project highlights how streaming data enables minute-by-minute insights, whi
 * Designing queries for live dashboards
 
 ## 🧪 Queries Used
-1️⃣ ### Identify Streaming Data
+### 1️⃣ Identify Streaming Data
+
 SELECT *
 FROM `thelook_gcda.shopping_cart`
 ORDER BY created_at DESC
