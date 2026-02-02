@@ -1,13 +1,13 @@
 # batch-vs-streaming-bigquery-analytics
 This project showcases how cloud-native analytics platforms like BigQuery enable both real-time and batch analytics, empowering businesses to make faster and smarter decisions using live data streams.
 
-##🚀 Project Overview
+🚀 ## Project Overview
 
 This project demonstrates how to identify, analyze, and query batch and streaming data sources using Google BigQuery. The use case is based on a real-world eCommerce scenario where near real-time shopping cart activity is analyzed to support merchandising and pricing decisions.
 
 The project highlights how streaming data enables minute-by-minute insights, while batch data supports historical and aggregated analysis.
 
-##🧠 Business Scenario
+🧠 ## Business Scenario
 
 ### A lead merchandiser needs to monitor:
 
@@ -21,32 +21,32 @@ The project highlights how streaming data enables minute-by-minute insights, whi
 
 * Batch source: orders table (periodic batch loads)
 
-🏗️ Architecture
+🏗️ ## Architecture
 
-Data Warehouse: Google BigQuery
+* Data Warehouse: Google BigQuery
 
-Streaming Source: User shopping cart activity
+* Streaming Source: User shopping cart activity
 
-Batch Source: Completed orders
+* Batch Source: Completed orders
 
-Analytics Layer: SQL queries with time-based aggregation
+* Analytics Layer: SQL queries with time-based aggregation
 
-🔍 Key Concepts Demonstrated
+🔍 ## Key Concepts Demonstrated
 
-Difference between batch vs streaming data processing
+* Difference between batch vs streaming data processing
 
-Identifying streaming buffers in BigQuery
+* Identifying streaming buffers in BigQuery
 
-Real-time analytics using CURRENT_TIMESTAMP()
+* Real-time analytics using CURRENT_TIMESTAMP()
 
-Time-based aggregation with FORMAT_TIMESTAMP()
+* Time-based aggregation with FORMAT_TIMESTAMP()
 
-Join operations between transactional and dimensional tables
+* Join operations between transactional and dimensional tables
 
-Designing queries for live dashboards
+* Designing queries for live dashboards
 
-🧪 Queries Used
-1️⃣ Identify Streaming Data
+🧪 ## Queries Used
+1️⃣ ### Identify Streaming Data
 SELECT *
 FROM `thelook_gcda.shopping_cart`
 ORDER BY created_at DESC
